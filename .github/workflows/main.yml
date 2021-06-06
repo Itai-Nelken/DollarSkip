@@ -24,7 +24,5 @@ jobs:
       - name: build debug
         run: make 
       - name: make test
-        run: sudo make install
-      - name: test the comamnd
-        run: $ pwd
+        run: ./temp pwd
 
